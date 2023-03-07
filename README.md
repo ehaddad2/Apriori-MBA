@@ -2,7 +2,8 @@ Market Basket Analysis (MBA) is a method of data mining used in various ‘recom
 
 This project includes a classic implementation of Apriori in Python, however modified to allow efficient hashing for candidate itemset frequency counting. The program also includes code to find association rules between the itemsets determined to be frequent. MBA is performed on a publicly available dataset of websites visited in a day by anonymous microsoft users. More informantion regarding the dataset is available [here](https://archive.ics.uci.edu/ml/datasets/Anonymous+Microsoft+Web+Data){:target="_blank"} . 
 
-Apriori Algorithm - An Overview: <a href="https://www.example.com" target="_blank">Click here to visit my website</a>
+Apriori Algorithm - An Overview: [Click here to visit my website](https://www.example.com){:target="_blank" rel="noopener"}
+
 
 
 
