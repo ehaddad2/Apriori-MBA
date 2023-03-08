@@ -97,17 +97,7 @@ class AprioriAlg:
                 confidence = itemsetSuppCnt/antecedentSuppCnt
                 if (confidence >= confidence_threshold):
                     print("consequent: [", consequent,"] => Antecedent [",  antecedent, "]: ",int(itemsetSuppCnt/antecedentSuppCnt*100), "%")
-"""
-            if len(itemset) > 1:
-                for antecedent in itertools.combinations(itemset, len(itemset) - 1):
-                    antecedent = frozenset(antecedent)
-                    antecedentSuppCnt = self.count_support_individual(antecedent)
-                    consequent = itemset.difference(antecedent)
-                    consequentSuppCnt = self.count_support_individual(consequent)
-                    confidence= itemsetSuppCnt/antecedentSuppCnt
-                    if (confidence >= confidence_threshold):
-                        print("consequent: [", consequent,"] => Antecedent [",  antecedent, "]: ",int(itemsetSuppCnt/antecedentSuppCnt*100), "%")
-"""        
+       
 def frozenset_sort(fset):
     return tuple(sorted(fset))
 
