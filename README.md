@@ -29,7 +29,8 @@ As mentioned before, the implementation in this program is identical to the clas
 Prior to calling the algorithm, the dataset was stored into corresponding data structures to allow efficient access of both the transactions and items. This was done by first extracting the attribute and item data into corresponding data frames. The attribute data frame was then used to create the item_data list seen in MBA.py which contains a list of all the attributes. The item data, however, is stored in a slightly more complex dictionary structure where the key is the transaction ID (ie. UserID) with the values set as the list of corresponding items (ie. Attributes). This is primarily to allow efficient database scans when counting itemset supports. These user based “transactions” with their corresponding items, along with a list of all the possible items from the dataset, are passed to the Apriori class during its initialization along with an integer value for the minimum support threshold.
 
 ### Output Sample:
-![Example of program output run with a min support threshold of 500 for frequent itemset generation and min confidence of .70 (or 70%) used for association creation](mba.png)
+![](mba.png)
+Example of program output run with a min support threshold of 500 for frequent itemset generation and min confidence of .70 (or 70%) used for association creation
 
 
 
