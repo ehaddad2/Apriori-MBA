@@ -22,7 +22,7 @@ The basic idea behind this algorithm is to use a bottom-up approach, where k fre
 
 **In this particular implementation, the counts are stored in a hash table where the sets are frozen to act as keys with corresponding frequencies as values.*
 
-As mentioned before, the implementation in this program is identical to the classic one shown below, with the exception of hashing used in the frequency count process to make the database search more efficient. This was based off of a [study](http://ijariie.com/AdminUploadPdf/MODIFIED_APRIORI_ALGORITHM_USING_HASH_BASED_TECHNIQUE_ijariie2352.pdf) that used the method to decrease the time complexity and cut memory usage by nearly half in each candidate generation stage.
+As mentioned before, the implementation in this program is identical to the classic one shown above, with the exception of hashing used in the frequency count process to make the database search more efficient. This was based off of a [study](http://ijariie.com/AdminUploadPdf/MODIFIED_APRIORI_ALGORITHM_USING_HASH_BASED_TECHNIQUE_ijariie2352.pdf) that used the method to decrease the time complexity and cut memory usage by nearly half in each candidate generation stage.
 
 ### Preparing the MS-Web Data:
 
